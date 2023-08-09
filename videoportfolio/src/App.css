@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+html {
+
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -41,6 +47,7 @@ footer {
 .name {
   text-align: right;
   margin-top: 3%;
+  font-size: 20px;
 }
 
 .links {
